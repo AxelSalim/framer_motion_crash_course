@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { TextParallaxContentExample } from './components/TextParallaxContent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div className="">
+      <TextParallaxContentExample />
     </div>
   );
 }
